@@ -1,15 +1,14 @@
 import React from 'react';
 
 const Services = () => (
-  <div>
+  <>
     <h2>Our Services</h2>
     <ul>
-      <li>Home Nursing Care</li>
-      <li>Elderly Support</li>
-      <li>ICU Setup at Home</li>
-      <li>Lab Tests, Injections</li>
+      <li>🏠 Home Nursing (Short/Long Term)</li>
+      <li>👵 Elderly Care (Hygiene, Mobility, Feeding)</li>
+      <li>💉 ICU Setup at Home (Ventilator, Oxygen)</li>
+      <li>🧪 Injections, Lab Test Assistance</li>
     </ul>
-  </div>
+  </>
 );
-
 export default Services;

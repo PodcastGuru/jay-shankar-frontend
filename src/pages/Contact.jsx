@@ -14,14 +14,15 @@ const Contact = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <>
       <h2>Contact Us</h2>
-      <input placeholder="Name" onChange={(e) => setFormData({ ...formData, name: e.target.value })} required />
-      <input type="email" placeholder="Email" onChange={(e) => setFormData({ ...formData, email: e.target.value })} required />
-      <textarea placeholder="Message" onChange={(e) => setFormData({ ...formData, message: e.target.value })} required />
-      <button type="submit">Send</button>
-    </form>
+      <form onSubmit={handleSubmit}>
+        <input placeholder="Your Name" onChange={(e) => setFormData({ ...formData, name: e.target.value })} required />
+        <input type="email" placeholder="Your Email" onChange={(e) => setFormData({ ...formData, email: e.target.value })} required />
+        <textarea placeholder="Your Message" onChange={(e) => setFormData({ ...formData, message: e.target.value })} required />
+        <button type="submit">Send</button>
+      </form>
+    </>
   );
 };
-
 export default Contact;
