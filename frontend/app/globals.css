@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-50: #eef5fb;
+  --primary-100: #d6e8f5;
+  --primary-200: #add0eb;
+  --primary-300: #84b9e0;
+  --primary-400: #5b9cd6;
+  --primary-500: #4683ae; /* Logo color */
+  --primary-600: #3a6a8c;
+  --primary-700: #2d516b;
+  --primary-800: #1f3849;
+  --primary-900: #101c24;
+  
+  --secondary-50: #f0f7f4;
+  --secondary-100: #d9ebe2;
+  --secondary-200: #b3d7c5;
+  --secondary-300: #8dc3a8;
+  --secondary-400: #67af8b;
+  --secondary-500: #4a8c6e;
+  --secondary-600: #3b7058;
+  --secondary-700: #2c5442;
+  --secondary-800: #1e382c;
+  --secondary-900: #0f1c16;
+  
+  --neutral-50: #f8f9fa;
+  --neutral-100: #e9ecef;
+  --neutral-200: #dee2e6;
+  --neutral-300: #ced4da;
+  --neutral-400: #adb5bd;
+  --neutral-500: #6c757d;
+  --neutral-600: #495057;
+  --neutral-700: #343a40;
+  --neutral-800: #212529;
+  --neutral-900: #121416;
+}
+
+/* Add to global.css */
+.header-offset {
+  /* Adjust this value to match your header height */
+  height: var(--header-height, 80px);
+}
+
+:root {
+  /* Set your actual header height here */
+  --header-height: 80px;
+}
+
+@layer base {
+  body {
+    @apply text-neutral-800 bg-white font-sans;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-medium text-primary-700;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary-500 hover:bg-primary-600 text-white font-medium py-2 px-6 rounded-md transition-all duration-300;
+  }
+  
+  .btn-secondary {
+    @apply bg-white hover:bg-neutral-100 text-primary-600 border border-primary-500 font-medium py-2 px-6 rounded-md transition-all duration-300;
+  }
+  
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .section-padding {
+    @apply py-12 md:py-24;
+  }
+  
+  .card {
+    @apply bg-white rounded-lg shadow-md overflow-hidden border border-neutral-200 hover:shadow-lg transition-shadow duration-300;
+  }
+}
+
+/* Animation classes */
+.fade-in {
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.slide-up {
+  animation: slideUp 0.8s ease-out;
+}
+
+.slide-in-right {
+  animation: slideInRight 0.8s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(50px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes slideInRight {
+  from { transform: translateX(50px); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+
+/* Add to global.css */
+.btn-rounded {
+  @apply rounded-full flex items-center justify-center transition-all duration-300;
+}
