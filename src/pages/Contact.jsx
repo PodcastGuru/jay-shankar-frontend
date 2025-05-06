@@ -14,7 +14,7 @@ const Contact = () => {
   };
 
   return (
-    <>
+    <div className="container">
       <h2>Contact Us</h2>
       <form onSubmit={handleSubmit}>
         <input placeholder="Your Name" onChange={(e) => setFormData({ ...formData, name: e.target.value })} required />
@@ -22,7 +22,7 @@ const Contact = () => {
         <textarea placeholder="Your Message" onChange={(e) => setFormData({ ...formData, message: e.target.value })} required />
         <button type="submit">Send</button>
       </form>
-    </>
+    </div>
   );
 };
 export default Contact;
