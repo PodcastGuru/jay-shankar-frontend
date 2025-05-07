@@ -120,7 +120,7 @@ export default function Footer() {
         {/* Divider */}
         <div className="border-t border-neutral-800 py-6">
           <p className="text-neutral-400 text-sm text-center">
-            © 2023 JAY SHANKAR NURSING BUREAU. All Rights Reserved.
+            © 2025 JAY SHANKAR NURSING BUREAU. All Rights Reserved.
           </p>
         </div>
       </div>
