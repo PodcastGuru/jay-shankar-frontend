@@ -135,14 +135,12 @@ export default function CompassionateCareSection() {
     <section className="relative w-full overflow-hidden rounded-3xl py-8 my-6 md:my-12 lg:my-16">
       {/* Background image */}
       <div className="relative w-full h-[500px] sm:h-[550px] md:h-[600px] lg:h-[650px]">
-      <img src="/images/image-card-9.jpg" alt="Test" width="400" height="300" />
-        {/* <Image
+        <Image
           src="/images/image-card-9.jpg"
           alt="Healthcare professionals"
-          fill
           priority
           className="object-cover"
-        /> */}
+        />
         {/* Lighter overlay on the entire image */}
         <div className="absolute inset-0 bg-black/20"></div>
       </div>
