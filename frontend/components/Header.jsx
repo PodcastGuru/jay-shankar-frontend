@@ -26,7 +26,7 @@ export default function Header() {
           <Link href="/" className="relative z-10">
             <div className="flex items-center">
               <Image 
-                src="/images/logo.png" 
+                src="/images/Logo.png" 
                 alt="MediCare Nursing" 
                 width={150} 
                 height={150} 
