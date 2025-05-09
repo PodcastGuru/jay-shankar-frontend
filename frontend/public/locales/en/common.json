@@ -1,0 +1,29 @@
+{
+  "header": {
+    "home": "Home",
+    "services": "Services",
+    "contactUs": "Contact Us",
+    "bookNurse": "Book a Nurse",
+    "language": "मराठी"
+  },
+"footer": {
+  "quickLinks": "Quick Links",
+  "followUs": "Follow Us",
+  "serviceAreas": "Service Areas in Pune",
+  "allRightsReserved": "All Rights Reserved",
+  "companyDescription": "We provide professional nursing facilities to hospitals and offer personal care for elderly patients at home throughout Pune and Maharashtra, including skilled doctors, nurses, caretakers, and other healthcare services.",
+  "address": "123 Koregaon Park, Pune, Maharashtra 411001, India",
+  "phoneNumber": "+91 8007 889 067",
+  "email": "support@jayshankarnursingbureau.com",
+  "areas": {
+    "koregaonPark": "Koregaon Park",
+    "kalyaniNagar": "Kalyani Nagar",
+    "vimanNagar": "Viman Nagar",
+    "kharadi": "Kharadi",
+    "aundh": "Aundh",
+    "baner": "Baner",
+    "kothrud": "Kothrud",
+    "hinjewadi": "Hinjewadi"
+  }
+}
+}

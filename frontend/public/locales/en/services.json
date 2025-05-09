@@ -1,0 +1,112 @@
+{
+  "hero": {
+    "title": "Our <0>Nursing Services</0>",
+    "description": "Jay Shankar Nursing Bureau provides compassionate, professional healthcare services tailored to your unique needs. From hospital support to home care, our expert team delivers quality nursing with empathy and excellence.",
+    "button": "Schedule a Consultation"
+  },
+  "categories": {
+    "title": "Choose Your Care Category",
+    "hospital": "Hospital Care",
+    "home": "Home Care",
+    "specialized": "Specialized Care",
+    "learnMore": "Learn More"
+  },
+  "serviceTypes": {
+    "hospital": [
+      {
+        "title": "ICU & Critical Care",
+        "description": "Specialized nursing support for critical care units with trained professionals experienced in ventilator management, cardiac monitoring, and emergency response."
+      },
+      {
+        "title": "Surgical Support",
+        "description": "Comprehensive pre and post-operative care to ensure successful recovery from surgical procedures with pain management and wound care expertise."
+      },
+      {
+        "title": "Medication Management",
+        "description": "Professional administration of medications and monitoring for side effects, ensuring accurate dosages and proper medication schedules."
+      }
+    ],
+    "home": [
+      {
+        "title": "Elder Care",
+        "description": "Compassionate in-home care for seniors, assisting with daily activities, mobility support, and personalized attention to maintain dignity and independence."
+      },
+      {
+        "title": "Rehabilitation Support",
+        "description": "At-home rehabilitation services following surgeries or injuries, with specialized exercise programs and recovery monitoring."
+      },
+      {
+        "title": "Chronic Disease Management",
+        "description": "Specialized care for patients with chronic conditions such as diabetes, heart disease, or respiratory conditions with regular monitoring and lifestyle guidance."
+      }
+    ],
+    "specialized": [
+      {
+        "title": "Maternity & Newborn Care",
+        "description": "Supportive care for new mothers and infants, including breastfeeding assistance, newborn monitoring, and postpartum recovery support."
+      },
+      {
+        "title": "Palliative Care",
+        "description": "Compassionate end-of-life care focused on comfort, dignity, and quality of life for patients with serious illnesses and support for their families."
+      },
+      {
+        "title": "Mental Health Support",
+        "description": "Specialized nursing care for individuals with mental health conditions, including medication management, emotional support, and crisis intervention."
+      }
+    ]
+  },
+  "process": {
+    "title": "How Our Service Works",
+    "description": "We make quality healthcare accessible with a simple, transparent process designed to match you with the perfect care solution.",
+    "steps": [
+      {
+        "title": "Assessment",
+        "description": "We evaluate your healthcare needs through a detailed consultation to understand specific requirements."
+      },
+      {
+        "title": "Care Planning",
+        "description": "We develop a personalized care plan tailored to your medical needs and preferences."
+      },
+      {
+        "title": "Nurse Matching",
+        "description": "We match you with qualified healthcare professionals who specialize in your specific care needs."
+      },
+      {
+        "title": "Ongoing Care",
+        "description": "We provide continuous monitoring and adapt care as your health needs evolve over time."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "subtitle": "Hear from patients and families who have experienced our compassionate care",
+    "items": [
+      {
+        "quote": "The care my mother received was exceptional. The nurses were not only skilled but also genuinely compassionate. They made a difficult time much easier for our family.",
+        "name": "Rajesh Kumar",
+        "service": "Home Care Services"
+      },
+      {
+        "quote": "After my surgery, I needed specialized care at home. The team from Jay Shankar provided excellent medical support and made my recovery smooth and comfortable.",
+        "name": "Priya Sharma",
+        "service": "Post-Surgery Care"
+      },
+      {
+        "quote": "As a hospital administrator, I've been impressed with the professionalism and expertise of the nursing staff provided by Jay Shankar. They integrate seamlessly with our team.",
+        "name": "Dr. Anand Verma",
+        "service": "Hospital Staffing"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Need Nursing Care?",
+    "description": "Our team is ready to provide the compassionate, professional care you or your loved one deserves. Contact us today to discuss your healthcare needs.",
+    "button": "Contact Us",
+    "stats": {
+      "support": "Emergency Support Available",
+      "nurses": "Experienced Nurses",
+      "experience": "Years of Experience",
+      "clients": "Satisfied Clients"
+    }
+  }
+}

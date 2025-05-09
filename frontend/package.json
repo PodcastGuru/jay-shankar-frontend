@@ -10,9 +10,13 @@
   },
   "dependencies": {
     "@tailwindcss/forms": "^0.5.10",
+    "i18next": "^25.1.2",
+    "i18next-http-backend": "^3.0.2",
     "next": "^15.3.1",
+    "next-i18next": "^15.4.2",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-i18next": "^15.5.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

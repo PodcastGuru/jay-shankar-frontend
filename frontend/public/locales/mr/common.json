@@ -1,0 +1,29 @@
+{
+  "header": {
+    "home": "मुख्यपृष्ठ",
+    "services": "सेवा",
+    "contactUs": "संपर्क करा",
+    "bookNurse": "नर्स बुक करा",
+    "language": "English"
+  },
+"footer": {
+  "quickLinks": "त्वरित लिंक्स",
+  "followUs": "आम्हाला फॉलो करा",
+  "serviceAreas": "पुणे मधील सेवा क्षेत्र",
+  "allRightsReserved": "सर्व हक्क राखीव",
+  "companyDescription": "आम्ही रुग्णालयांना व्यावसायिक नर्सिंग सुविधा प्रदान करतो आणि पुणे आणि महाराष्ट्र भरात घरी वृद्ध रुग्णांसाठी वैयक्तिक काळजी प्रदान करतो, कुशल डॉक्टर, नर्स, काळजीवाहक आणि इतर आरोग्य सेवांसह.",
+  "address": "१२३ कोरेगाव पार्क, पुणे, महाराष्ट्र ४११००१, भारत",
+  "phoneNumber": "+९१ ८००७ ८८९ ०६७",
+  "email": "support@jayshankarnursingbureau.com",
+  "areas": {
+    "koregaonPark": "कोरेगाव पार्क",
+    "kalyaniNagar": "कल्याणी नगर",
+    "vimanNagar": "विमान नगर",
+    "kharadi": "खराडी",
+    "aundh": "औंध",
+    "baner": "बाणेर",
+    "kothrud": "कोथरूड",
+    "hinjewadi": "हिंजवडी"
+  }
+}
+}
