@@ -54,7 +54,7 @@ export default function CompassionateCareSection() {
           {/* Stats section - revised for mobile */}
           <div className="grid grid-cols-2 gap-4 sm:gap-6 md:gap-8 mt-4 w-full max-w-4xl mx-auto relative">
             <div className="flex flex-col items-center p-2">
-              <h3 className="text-2xl text-white sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-1 sm:mb-2">100+</h3>
+              <h3 className="text-2xl text-white sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-1 sm:mb-2">50+</h3>
               <p className="text-center text-xs sm:text-sm md:text-base">{t('compassionateCare.skilledNurses')}</p>
             </div>
             
@@ -64,12 +64,12 @@ export default function CompassionateCareSection() {
             </div>
             
             <div className="flex flex-col items-center p-2">
-              <h3 className="text-2xl text-white sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-1 sm:mb-2">200+</h3>
+              <h3 className="text-2xl text-white sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-1 sm:mb-2">20+</h3>
               <p className="text-center text-xs sm:text-sm md:text-base">{t('compassionateCare.carePlans')}</p>
             </div>
             
             <div className="flex flex-col items-center p-2">
-              <h3 className="text-2xl text-white sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-1 sm:mb-2">30+</h3>
+              <h3 className="text-2xl text-white sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-1 sm:mb-2">10+</h3>
               <p className="text-center text-xs sm:text-sm md:text-base">{t('compassionateCare.yearsExperience')}</p>
             </div>
           

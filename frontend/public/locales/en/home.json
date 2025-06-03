@@ -3,7 +3,12 @@
     "experience": "Experience",
     "compassionate": "Compassionate",
     "nursingCare": "Nursing Care",
-    "description": "Tailored to your specific needs, our team at Jay Shankar Nursing Bureau is here to provide the highest quality of service, whether in a hospital setting or for personalized assistance at home. Experience individualized attention that enhances the well-being of our patients."
+    "descriptionIntro": "Jai Shankar Nurses Bureau – Always ready to serve you! Now taking care of patients, newborns, and the elderly has become even easier and more reliable!",
+    "descriptionBullets": [
+      "🔹 Professional Nurses",
+      "🔹 Baby Care Experts",
+      "🔹 Nannies and Ward Boys"
+    ]
   },
   "serviceCards": {
     "aboutUs": "About Us",
@@ -31,21 +36,29 @@
     "unmatched": "Unmatched Nursing",
     "services": "Services for You",
     "whyChoose": "Why Choose Jay Shankar Nursing Bureau?",
-    "description": "Our dedicated team meets your healthcare needs with skilled nursing, personal caregiving, and daily living support tailored to each patient. Experience quality care at home or in a hospital setting, with compassionate professionals committed to your well-being. Count on us for flexible, customized solutions—from short-term assistance to long-term nursing care. Partner with us to enhance the healthcare journey for you or your loved ones."
+    "intro": "Our services stand out because:",
+    "bullets": [
+      "💠 Experienced and background-verified staff",
+      "💠 Timely and honest service",
+      "💠 Doorstep nursing and caregiving support",
+      "💠 Quality care at affordable rates",
+      "💠 Service available across Pune and surrounding areas"
+    ],
+    "footer": "We offer compassionate and professional care tailored to your needs—whether short-term or long-term, at home or in the hospital. Choose us for reliable, patient-focused support."
   },
   "nursingServices": {
-  "title": "Personalized Nursing Care",
-  "viewAll": "View All",
-  "description": "Enhance your quality of life through dedicated and compassionate nursing services from Jay Shankar Nursing Bureau. Our tailored solutions ensure that your specific healthcare needs are met with the highest standards of care and professionalism.",
-  "cards": {
-    "personalizedCare": "Personalized Care",
-    "skilledNursing": "Skilled Nursing Services",
-    "compassionateSupport": "Compassionate Support",
-    "homeCare": "Home Care Solutions",
-    "elderCare": "Elder Care Specialists",
-    "postSurgery": "Post-Surgery Care",
-    "dementiaCare": "Dementia Care",
-    "rehabilitation": "Physical Rehabilitation"
+    "title": "Services Available",
+    "viewAll": "View All",
+    "description": "Enhance your quality of life through dedicated and compassionate nursing services from Jay Shankar Nursing Bureau. Our tailored solutions ensure that your specific healthcare needs are met with the highest standards of care and professionalism.",
+    "cards": {
+      "personalizedCare": "Personalized Care",
+      "skilledNursing": "Skilled Nursing Services",
+      "compassionateSupport": "Newborn Baby Care",
+      "homeCare": "Home Care Solutions",
+      "elderCare": "Elder Care Specialists",
+      "postSurgery": "Post-Surgery Care",
+      "dementiaCare": "Female and male ward boy/attendant",
+      "rehabilitation": "Patient Care"
+    }
   }
-}
 }

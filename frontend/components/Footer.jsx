@@ -110,14 +110,14 @@ export default function Footer() {
             <div className="mt-8">
               <h3 className="text-white text-lg font-semibold mb-4">{t('footer.serviceAreas')}</h3>
               <ul className="text-neutral-400 text-sm grid grid-cols-2 gap-2">
-                <li>{t('footer.areas.koregaonPark')}</li>
-                <li>{t('footer.areas.kalyaniNagar')}</li>
-                <li>{t('footer.areas.vimanNagar')}</li>
-                <li>{t('footer.areas.kharadi')}</li>
-                <li>{t('footer.areas.aundh')}</li>
-                <li>{t('footer.areas.baner')}</li>
+                <li>{t('footer.areas.Uttamnagar')}</li>
+                <li>{t('footer.areas.Warje Malwadi')}</li>
+                <li>{t('footer.areas.Karvenagar')}</li>
+                <li>{t('footer.areas.Kothrud')}</li>
+                <li>{t('footer.areas.Deccan')}</li>
+                {/* <li>{t('footer.areas.baner')}</li>
                 <li>{t('footer.areas.kothrud')}</li>
-                <li>{t('footer.areas.hinjewadi')}</li>
+                <li>{t('footer.areas.hinjewadi')}</li> */}
               </ul>
             </div>
           </div>

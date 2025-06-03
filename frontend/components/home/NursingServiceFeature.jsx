@@ -19,28 +19,41 @@ export default function NursingServiceFeature() {
             {/* Background decorative circles */}
             <div className="absolute left-0 top-1/4 w-28 h-28 border-2 border-blue-100 rounded-full opacity-20 -z-10"></div>
             <div className="absolute left-12 bottom-1/4 w-16 h-16 border-2 border-blue-100 rounded-full opacity-20 -z-10"></div>
-            
+
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-neutral-900 mb-3">
               {t('nursingServiceFeature.unmatched')}
             </h2>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-blue-500 mb-6">
               {t('nursingServiceFeature.services')}
             </h2>
-            
+
             <h3 className="text-xl md:text-2xl font-medium text-neutral-800 mb-4">
               {t('nursingServiceFeature.whyChoose')}
             </h3>
-            
-            <p className="text-neutral-700 leading-relaxed mb-6">
-              {t('nursingServiceFeature.description')}
-            </p>
+
+            <div className="text-neutral-700 leading-relaxed mb-6 space-y-2">
+              <p>{t('nursingServiceFeature.intro')}</p>
+
+              <ul className="list-none pl-0">
+                {(Array.isArray(t('nursingServiceFeature.bullets', { returnObjects: true }))
+                  ? t('nursingServiceFeature.bullets', { returnObjects: true })
+                  : []
+                ).map((item, index) => (
+                  <li key={index}>{item}</li>
+                ))}
+              </ul>
+
+              <p>{t('nursingServiceFeature.footer')}</p>
+            </div>
+
+
           </div>
-          
+
           {/* Right Image */}
-          <div className="h-full">
+          <div className="h-full flex items-center justify-center relative">
             <div className="relative h-full w-full md:h-[50vh] overflow-hidden">
               <Image
-                src="/images/image-card-10.png"
+                src="/images/nusring-team.jpg"
                 alt="Nurse caring for elderly patient"
                 fill
                 priority

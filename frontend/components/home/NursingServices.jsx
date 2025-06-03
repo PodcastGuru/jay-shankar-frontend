@@ -20,44 +20,51 @@ export default function NursingServices() {
   const services = [
     {
       id: 1,
-      titleKey: "nursingServices.cards.personalizedCare",
-      image: "/images/image-card-1.png"
+      titleKey: "nursingServices.cards.rehabilitation",
+      image: "/images/patient-care.jpg"
     },
     {
       id: 2,
       titleKey: "nursingServices.cards.skilledNursing",
-      image: "/images/image-card-3.jpg"
+      image: "/images/skill-nursing.jpeg"
+
     },
     {
       id: 3,
-      titleKey: "nursingServices.cards.compassionateSupport",
-      image: "/images/image-card-2.jpg"
+      titleKey: "nursingServices.cards.elderCare",
+      image: "/images/image-card-6.png"
+
     },
     {
       id: 4,
-      titleKey: "nursingServices.cards.homeCare",
-      image: "/images/image-card-4.jpg"
+      titleKey: "nursingServices.cards.compassionateSupport",
+      image: "/images/baby-care.jpg"
     },
     {
       id: 5,
-      titleKey: "nursingServices.cards.elderCare",
-      image: "/images/image-card-6.png"
+
+      titleKey: "nursingServices.cards.postSurgery",
+      image: "/images/post-surgery-care.webp"
     },
     {
       id: 6,
-      titleKey: "nursingServices.cards.postSurgery",
-      image: "/images/image-card-5.jpg"
+
+      titleKey: "nursingServices.cards.dementiaCare",
+      image: "/images/male-care-attendant.jpg"
+
     },
     {
       id: 7,
-      titleKey: "nursingServices.cards.dementiaCare",
-      image: "/images/image-card-7 (2).jpg"
+      titleKey: "nursingServices.cards.homeCare",
+      image: "/images/image-card-4.jpg"
+
     },
     {
       id: 8,
-      titleKey: "nursingServices.cards.rehabilitation",
-      image: "/images/image-card-8.jpg"
-    }
+      titleKey: "nursingServices.cards.personalizedCare",
+      image: "/images/personalize-care.jpg"
+
+    },
   ];
 
   // Update visible cards based on screen size
@@ -106,7 +113,7 @@ export default function NursingServices() {
         {/* Blue decorative borders */}
         <div className="absolute left-0 top-0 bottom-0 w-4 bg-blue-500 rounded-l-2xl"></div>
         <div className="absolute right-0 top-0 bottom-0 w-4 bg-blue-500 rounded-r-2xl"></div>
-        
+
         <div className="px-8 py-12">
           {/* Header with title and buttons */}
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-10">
@@ -125,7 +132,7 @@ export default function NursingServices() {
               </svg>
             </Link>
           </div>
-          
+
           {/* Service cards container */}
           <div className="relative overflow-hidden" ref={containerRef}>
             <div
@@ -157,17 +164,16 @@ export default function NursingServices() {
                 </div>
               ))}
             </div>
-            
+
             {/* Navigation buttons */}
             <div className="flex justify-start mt-8 space-x-2">
               <button
                 onClick={handlePrev}
                 disabled={!canGoPrev}
-                className={`w-10 h-10 rounded-full border flex items-center justify-center transition-colors ${
-                  canGoPrev 
-                    ? 'border-blue-400 text-blue-500 hover:bg-blue-50' 
-                    : 'border-neutral-300 text-neutral-400 cursor-not-allowed'
-                }`}
+                className={`w-10 h-10 rounded-full border flex items-center justify-center transition-colors ${canGoPrev
+                  ? 'border-blue-400 text-blue-500 hover:bg-blue-50'
+                  : 'border-neutral-300 text-neutral-400 cursor-not-allowed'
+                  }`}
               >
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                   <path fillRule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clipRule="evenodd" />
@@ -176,11 +182,10 @@ export default function NursingServices() {
               <button
                 onClick={handleNext}
                 disabled={!canGoNext}
-                className={`w-10 h-10 rounded-full flex items-center justify-center transition-colors ${
-                  canGoNext 
-                    ? 'bg-blue-500 text-white hover:bg-blue-600'
-                    : 'bg-neutral-300 text-white cursor-not-allowed'
-                }`}
+                className={`w-10 h-10 rounded-full flex items-center justify-center transition-colors ${canGoNext
+                  ? 'bg-blue-500 text-white hover:bg-blue-600'
+                  : 'bg-neutral-300 text-white cursor-not-allowed'
+                  }`}
               >
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                   <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
@@ -188,7 +193,7 @@ export default function NursingServices() {
               </button>
             </div>
           </div>
-          
+
           {/* Description text */}
           <div className="mt-12 md:mt-16">
             <p className="text-neutral-700 text-center md:text-right max-w-3xl ml-auto">

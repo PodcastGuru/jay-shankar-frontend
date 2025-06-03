@@ -73,14 +73,14 @@ export default function ServicesPage() {
         id: 1,
         titleKey: 'serviceTypes.hospital.0.title',
         descriptionKey: 'serviceTypes.hospital.0.description',
-        image: "/images/image-card-11.jpg",
+        image: "/images/icu-care.jpg",
         icon: "critical-care"
       },
       {
         id: 2,
         titleKey: 'serviceTypes.hospital.1.title',
         descriptionKey: 'serviceTypes.hospital.1.description',
-        image: "/images/image-card-12.png",
+        image: "/images/surgical-support.webp",
         icon: "surgical"
       },
       {
@@ -383,11 +383,11 @@ export default function ServicesPage() {
                   <p>{t('cta.stats.support')}</p>
                 </div>
                 <div className="bg-blue-400 p-4 rounded-lg">
-                  <div className="text-3xl font-bold mb-2">100+</div>
+                  <div className="text-3xl font-bold mb-2">50+</div>
                   <p>{t('cta.stats.nurses')}</p>
                 </div>
                 <div className="bg-blue-400 p-4 rounded-lg">
-                  <div className="text-3xl font-bold mb-2">15+</div>
+                  <div className="text-3xl font-bold mb-2">10+</div>
                   <p>{t('cta.stats.experience')}</p>
                 </div>
                 <div className="bg-blue-400 p-4 rounded-lg">

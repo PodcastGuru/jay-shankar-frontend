@@ -1,7 +1,7 @@
 {
   "hero": {
     "title": "Get in <0>Touch</0>",
-    "description": "We're here to answer your questions and provide the care you need. Reach out to our team for personalized nursing support across Pune and surrounding areas."
+    "description": "Take care of your loved ones – we are here to serve them! If you need reliable help for an elderly person, a patient or a newborn baby at home, be sure to contact us."
   },
   "contactInfo": {
     "title": "Contact Information",
@@ -54,6 +54,7 @@
       "button": "Send Another Message"
     }
   },
+
   "map": {
     "title": "Find Us",
     "description": "Visit our office or request a home consultation. We're conveniently located in Koregaon Park to serve all of Pune and surrounding areas."
@@ -72,7 +73,7 @@
       },
       {
         "question": "Do you provide services in all areas of Pune?",
-        "answer": "Yes, we serve all areas within Pune city and surrounding suburbs including Koregaon Park, Kalyani Nagar, Viman Nagar, Baner, Kothrud, Hadapsar, and Hinjewadi. We also provide services in nearby areas within Maharashtra."
+        "answer": "Yes, we serve all areas within Pune city and surrounding suburbs including Uttamnagar , Warje Malwadi, Karvenagar , Kothrud and Deccan. We also provide services in nearby areas within Maharashtra."
       },
       {
         "question": "What payment methods do you accept?",
