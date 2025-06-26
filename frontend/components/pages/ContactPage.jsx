@@ -533,7 +533,7 @@ export default function ContactPage() {
                   <div>
                     <h3 className="text-lg font-semibold text-neutral-900 mb-1">{t('contactInfo.phone.title')}</h3>
                     <p className="text-neutral-600 mb-1">{t('contactInfo.phone.description')}</p>
-                    <a href="tel:+918007889067" className="text-blue-500 font-medium hover:text-blue-700">+91 9049852645</a>
+                    <a href="tel:+919049852645" className="text-blue-500 font-medium hover:text-blue-700">+91 9049852645</a>
                   </div>
                 </div>
 
